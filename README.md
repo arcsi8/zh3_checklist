@@ -1,3 +1,4 @@
+
 **1. MVC projekt letrehozasa**
 Asp.net core web app with MVC
 
@@ -101,3 +102,15 @@ Add-Migration ...
 Update-Database
 
 **7. Controllerek létrehozása**
+controllers jobb klikk
+new scafolded item
+MVC controller with EF (4.)
+controller létrehozása a modelleknek
+
+
+
+
+
+
+
+
