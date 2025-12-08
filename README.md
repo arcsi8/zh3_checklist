@@ -1,4 +1,3 @@
-
 **1. MVC projekt letrehozasa**
 Asp.net core web app with MVC
 
@@ -73,7 +72,32 @@ Asp.net core web app with MVC
         }
     }
 
+*hasznos még:* 
+*Érdemes nullable (pl. int?) használata. 
+Annotációk: [Key] [Required] [Range(16,40)] [Display(Name = “Name”)] [ForeignKey(“HivatkozottCsapat”)]*
+
+**5. Context osztály**
+Context mappa létrehozása
+EFContext.cs létrehozása
+appsettings.json connection string létrehozása
 
 
+db linkelése > két lehetőség:
+	
+	1. EFContext-ben
+	2. appsettings.json-ban
 
+majd modositjuk a program.cs-t is
 
+	 
+
+    //builder.Services.AddDbContext<vizibusz.Context.EFContext>();
+     //vagy
+     builder.Services.AddDbContext<vizibusz.Context.EFContext>(options =>
+         options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+**6. Migráció**
+Add-Migration ...
+Update-Database
+
+**7. Controllerek létrehozása**
