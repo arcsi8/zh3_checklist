@@ -1,4 +1,3 @@
-
 **1. MVC projekt letrehozasa**
 Asp.net core web app with MVC
 
@@ -107,10 +106,6 @@ new scafolded item
 MVC controller with EF (4.)
 controller létrehozása a modelleknek
 
+**8. _Layout módositása + Enum + Nevek megjelenitése**
 
-
-
-
-
-
-
+**9. Hiba Kezelés, szürés, listázás**
